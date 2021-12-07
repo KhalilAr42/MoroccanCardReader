@@ -50,7 +50,7 @@ def extract(MRZ):
 
         st.markdown("##### First Name : "+firstName)
 
-        st.markdown("##### Date de naissance : "+birthDay[4:6]+"/"+birthDay[2:4]+"/"+birthDay[0:2])
+        st.markdown("##### Date of Birth : "+birthDay[4:6]+"/"+birthDay[2:4]+"/"+birthDay[0:2])
 
         if sex == 'M':
             st.markdown("##### Sex : Homme")
