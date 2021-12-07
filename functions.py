@@ -8,9 +8,9 @@ def resize(image,height=800):
     r = height / image.shape[0]
     width = int(r * image.shape[1])
 
-    resized_image = cv2.resize(image, (width, height),interpolation = 3)
+    resizedImage = cv2.resize(image, (width, height),interpolation = 3)
 
-    return resized_image
+    return resizedImage
 
 # Extraction des points a travers le contours de canny
 def get_corner_points(contour):
@@ -25,9 +25,9 @@ def get_corner_points(contour):
 def order_corner_points_clockwise(points):
 
     rect = np.zeros((4, 2), dtype="float32")
-    axis_sum = np.sum(points, axis=1)
-    rect[0] = points[np.argmin(axis_sum)]
-    rect[2] = points[np.argmax(axis_sum)]
+    axisSum = np.sum(points, axis=1)
+    rect[0] = points[np.argmin(axisSum)]
+    rect[2] = points[np.argmax(axisSum)]
 
     axis_diff = np.diff(points, axis=1)
     rect[1] = points[np.argmin(axis_diff)]
@@ -70,7 +70,6 @@ def noise_delete(img,dot_size):
             if area <= dot_size:
                 cv2.drawContours(img,[cnt],-1,255,-1,1)
 
-    return img
 
 
 
