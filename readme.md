@@ -16,7 +16,7 @@ You can access the app from here : https://share.streamlit.io/khalilar42/morocca
 
 After entering you just have to insert the back side (The side containing MRZ) of your Moroccan card ID using the form : 
 
-![alt text](home.jpg "This the home page")
+![This the home page](home.jpg)
 
 #Conditions :
 
@@ -30,7 +30,7 @@ MRZ (Machine Readable Zone)
 
 First your image will be scanned to detect contours and crop it , and the we will select only MRZ area and finaly display you all of the informations extracted as shown in the next picture : 
 
-![Execution example](execution.jpg)
+![Execution example](test.jpg)
 
 In the previous picture I hid sensitive Informations such as id number..etc, Dont worry you can see everything in your case , **check the last point for security part.**
 
