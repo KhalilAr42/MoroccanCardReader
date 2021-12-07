@@ -39,7 +39,7 @@ In the previous picture I hid sensitive Informations such as id number..etc, Don
 According to streamlit documentation : 
 https://docs.streamlit.io/knowledge-base/using-streamlitwhere-file-uploader-store-when-deleted
 
-When you upload a file using st.file_uploader,  **st.file_uploader** the data are copied to the Streamlit **backend via the browser, and contained in a BytesIO buffer in Python memory (i.e. RAM, not disk)**. **The data will persist in RAM until the Streamlit app re-runs from top-to-bottom**, which is on each widget interaction. **If you need to save the data that was uploaded between runs, then you can cache it so that Streamlit persists it across re-runs**.
+When you upload a file using **st.file_uploader** the data are copied to the Streamlit **backend via the browser, and contained in a BytesIO buffer in Python memory (i.e. RAM, not disk)**. **The data will persist in RAM until the Streamlit app re-runs from top-to-bottom**, which is on each widget interaction. **If you need to save the data that was uploaded between runs, then you can cache it so that Streamlit persists it across re-runs**.
 
 **You can verify the code and be sure that i don't save the image in cache or any other place.**
 
