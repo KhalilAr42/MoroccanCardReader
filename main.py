@@ -1,9 +1,7 @@
-import Scanner  
-import Reader 
+from Scanner import scan 
+from Reader import read,extract
 import streamlit as st
 import numpy as np
-
-
 
 st.title("Moroccan ID Reader :")
 
@@ -21,11 +19,11 @@ if img is not None :
 
     st.header("This is the picture after getting scanned :")
 
-    img = Scanner.scan(imgArr)
+    img = scan(imgArr)
 
     st.image(img,channels="BGR",caption="This is the image after getting scanned , remove borders and apply top view")
 
-    MRZ = Reader.read(img)
+    MRZ = read(img)
 
     st.header("This is the Machine readable zone extracted after binarization :")
 
@@ -33,7 +31,7 @@ if img is not None :
 
     st.header("These are the results : ")
 
-    Reader.extract(MRZ)
+    extract(MRZ)
 
 
 

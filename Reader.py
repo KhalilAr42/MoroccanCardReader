@@ -4,7 +4,7 @@ import numpy as np
 from functions import resize,noise_delete
 import streamlit as st
 from skimage.filters import threshold_local
-from skimage.util import img_as_float,img_as_ubyte
+from skimage.util import img_as_ubyte
 
 def read(img):
 
