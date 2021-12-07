@@ -26,6 +26,8 @@ def read(img):
 
     #Delete small blobs around text (noise)
     noise_delete(MRZ,14)
+
+    MRZ = cv2.medianBlur(MRZ,3)
     
     return MRZ
 
