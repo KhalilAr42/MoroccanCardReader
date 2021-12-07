@@ -1,5 +1,5 @@
-from Scanner import scan 
-from Reader import read,extract
+import Scanner  
+import Reader 
 import streamlit as st
 import numpy as np
 
@@ -19,11 +19,11 @@ if img is not None :
 
     st.header("This is the picture after getting scanned :")
 
-    img = scan(imgArr)
+    img = Scanner.scan(imgArr)
 
     st.image(img,channels="BGR",caption="This is the image after getting scanned , remove borders and apply top view")
 
-    MRZ = read(img)
+    MRZ = Reader.read(img)
 
     st.header("This is the Machine readable zone extracted after binarization :")
 
@@ -31,7 +31,7 @@ if img is not None :
 
     st.header("These are the results : ")
 
-    extract(MRZ)
+    Reader.extract(MRZ)
 
 
 
