@@ -21,7 +21,7 @@ After entering you just have to insert the back side (The side containing MRZ) o
 #Conditions :
 
 **Your image have to be of decent quality and with good lighting.**
-
+MRZ (Machine Readable Zone)
 **Your image should not be skewed the text have to be inline and horizantal.**
 
 **Your image should be taken on a dark background to facilitate contour detection.**
@@ -30,7 +30,7 @@ After entering you just have to insert the back side (The side containing MRZ) o
 
 First your image will be scanned to detect contours and crop it , and the we will select only MRZ area and finaly display you all of the informations extracted as shown in the next picture : 
 
-![alt text](execution.jpg "Results after uploading the ID card")
+![Execution example](execution.jpg)
 
 In the previous picture I hid sensitive Informations such as id number..etc, Dont worry you can see everything in your case , **check the last point for security part.**
 
