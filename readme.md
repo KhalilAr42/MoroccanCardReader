@@ -20,11 +20,11 @@ After entering you just have to insert the back side (The side containing MRZ) o
 
 # Conditions :
 
-**Your image have to be of decent quality and with good lighting.**
+- **Your image have to be of decent quality and with good lighting.**
 </br>
-**Your image should not be skewed the text have to be inline and horizantal.**
+- **Your image should not be skewed the text have to be inline and horizantal.**
 </br>
-**Your image should be taken on a dark background to facilitate contour detection.**
+- **Your image should be taken on a dark background to facilitate contour detection.**
 
 # Result :
 
@@ -46,4 +46,5 @@ When you upload a file using **st.file_uploader** the data are copied to the Str
 # Ressources :
 
 **https://muthu.co/all-tesseract-ocr-options/**
+</br>
 **https://www.pyimagesearch.com/2014/08/25/4-point-opencv-getperspective-transform-example/**
