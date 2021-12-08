@@ -18,12 +18,12 @@ After entering you just have to insert the back side (The side containing MRZ) o
 
 ![This the home page](home.jpg)
 
-#Conditions :
+# Conditions :
 
 **Your image have to be of decent quality and with good lighting.**
-MRZ (Machine Readable Zone)
+</br>
 **Your image should not be skewed the text have to be inline and horizantal.**
-
+</br>
 **Your image should be taken on a dark background to facilitate contour detection.**
 
 # Result :
