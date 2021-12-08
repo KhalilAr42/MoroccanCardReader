@@ -43,3 +43,7 @@ When you upload a file using **st.file_uploader** the data are copied to the Str
 
 **You can verify the code and be sure that i don't save the image in cache or any other place.**
 
+# Ressources :
+
+**https://muthu.co/all-tesseract-ocr-options/**
+**https://www.pyimagesearch.com/2014/08/25/4-point-opencv-getperspective-transform-example/**
