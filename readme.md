@@ -20,11 +20,11 @@ After entering you just have to insert the back side (The side containing MRZ) o
 
 # Conditions :
 
-- **Your image have to be of decent quality and with good lighting.**
+**Your image have to be of decent quality and with good lighting.**
 </br>
-- **Your image should not be skewed the text have to be inline and horizantal.**
+**Your image should not be skewed the text have to be inline and horizantal.**
 </br>
-- **Your image should be taken on a dark background to facilitate contour detection.**
+**Your image should be taken on a dark background to facilitate contour detection.**
 
 # Result :
 
